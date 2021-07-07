@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valentino's Pizza Grill</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src=" https://use.fontawesome.com/6f1e404c6b.js"></script>
+        <script src="https://kit.fontawesome.com/f3e012e948.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.PNG"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        
+        <!----- about us content ----->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Wir sind Kelheims leckerste Pizzeria</h1>
+                    <p>
+                        Some more text is written here.Some more text is written here.Some more text is written here.
+                        Some more text is written here.Some more text is written here.Some more text is written here.
+                        Some more text is written here.Some more text is written here.Some more text is written here.
+                    </p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/banner.jpg">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                asdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+                sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss <br> ssss
+                ddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="signature">
+                <p>Made with <i class="far fa-heart"></i> by Kaymakanski <i class="far fa-registered"></i></p>
+            </div>
+        </section>
+
+        <!----- JavaScript for Toggle Menu ----->
+
+        <script>
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
