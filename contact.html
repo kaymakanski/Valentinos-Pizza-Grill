@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <section class="menu-header-short">
+    <section class="about-header">
         <nav>
             <a href=""><img src="images/logo.PNG"></a>
             <div class="nav-links" id="navLinks">
@@ -30,57 +30,66 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="menu.html">MENU</a></li>
                     <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
             <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>Our Menu</h1>
+        <h1>Contact Us</h1>
     </section>
 
-    <!----- Salads Menu ----->
+    <!----- contact us ----->
 
-    <section class="priceMenu">
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.99516663587633!2d11.884025913101244!3d48.92056619339035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479fb9fb9587fded%3A0x4f2c2f84283d9d8f!2zU2Now6RmZmxlcnN0cmHDn2UgMTQsIDkzMzA5IEtlbGhlaW0sINCT0LXRgNC80LDQvdC40Y8!5e0!3m2!1sbg!2sbg!4v1625776146875!5m2!1sbg!2sbg" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contactUs">
+
         <div class="row">
-            <div class="priceMenu-col">
-                <img src="images/salad.jpg">
-                <h3>Salads</h3>
+            <div class="contactUs-col">
                 <div>
-                    <span>Gemischter Salad</span>
-                    <span>7.00</span>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Schäfflerstrasse 14</h5>
+                        <p>93309 Kelheim, Deutschland</p>
+                    </span>
                 </div>
                 <div>
-                    <span>Mexicanischer Salad</span>
-                    <span>7.00</span>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>
+                        <h5>+4994412084075</h5>
+                        <p>Tuesday - Friday, 11:30am - 19:00 <br>
+                           Saturday, 12:00 - 19:00 <br>
+                           Sunday, 16:00 - 19:00 <br>
+                           Monday - closed
+                        </p>
+                    </span>
                 </div>
                 <div>
-                    <span>Tomaten-Mozzarella</span>
-                    <span>7.00</span>
+                    <i class="fas fa-envelope-open"></i>
+                    <span>
+                        <h5>valentinos.pizza.grill@gmail.com</h5>
+                        <p>Email us</p>
+                    </span>
                 </div>
+            </div>
+            <div class="contactUs-col">
+
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email address" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
             </div>
         </div>
 
     </section>
 
-    <section class="mainMenu">
-        <h1>What we offer</h1>
-        <p>Everything you can eat with us.</p>
 
-        <div class="row">
-            <a href="dunner-kebbab.html" class="mainMenu-col">
-                <h3>Dunner-Kebbap</h3>
-                <p>You can taste the best dunner with turkey in a freshly baked home-made bread</p>
-            </a>
-            <a href="pizza-and-pasta.html" class="mainMenu-col">
-                <h3>Pizza and Pasta</h3>
-                <p>A restorant without some Italian flavor is no real restorant!</p>
-            </a>
-            <a href="salads.html" class="mainMenu-col">
-                <h3>Salads</h3>
-                <p>We make all kinds of exotic and regular salads.</p>
-            </a>
-        </div>
-    </section>
 
     <section class="footer">
         <h4>About Us</h4>
