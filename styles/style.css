@@ -155,52 +155,38 @@ h3 {
     color: #fff;
 }
 
-/*----- Dunner Menu -----*/
+/*----- Price Menu -----*/
 
-.dunnerMenu {
+.priceMenu {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
-.dunnerMenu-col {
+.priceMenu-col {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
-.dunnerMenu-col img {
+.priceMenu-col img {
     width: 100%;
     border-radius: 10px;
 }
-.dunnerMenu-col ul {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
+.priceMenu-col h3 {
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
-
-/*----- Pizza and Pasta Menu -----*/
-
-.pizzaAndPastaMenu {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.pizzaAndPastaMenu-col {
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-.pizzaAndPastaMenu-col img {
-    width: 100%;
-    border-radius: 10px;
-}
-.pizzaAndPastaMenu-col ul {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
+.priceMenu-col div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
 }
 
 /*----- restaurant -----*/
@@ -311,9 +297,9 @@ h3 {
     color: #f44336;
 }
 
-/*----- Contact Us -----*/
+/*----- Comment -----*/
 
-.contactUs {
+.comment {
     margin: 100px auto;
     width: 80%;
     background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(../images/kelheim2.jpg);
@@ -323,10 +309,31 @@ h3 {
     text-align: center;
     padding: 100px 0;
 }
-.contactUs h1 {
+.comment h2 {
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
+}
+.comment-box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3 {
+    text-align: left;
+    color: #fff;
+}
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button {
+    margin: 10px 0;
 }
 
 /*----- footer -----*/
