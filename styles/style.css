@@ -87,9 +87,9 @@ nav .fas {
     display: none;
 }
 
-/*----- menu -----*/
+/*----- Main Menu -----*/
 
-.menu {
+.mainMenu {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -112,7 +112,7 @@ p {
     display: flex;
     justify-content: space-between;
 }
-.menu-col {
+.mainMenu-col {
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
@@ -126,8 +126,81 @@ h3 {
     font-weight: 600;
     margin: 10px 0;
 }
-.menu-col:hover {
+.mainMenu-col:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*----- Menu -----*/
+
+.menu-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/dunner-meat.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.menu-header h1 {
+    margin-top: 100px;
+}
+
+.menu-header-short {
+    height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/dunner-meat.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+/*----- Dunner Menu -----*/
+
+.dunnerMenu {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.dunnerMenu-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.dunnerMenu-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+.dunnerMenu-col ul {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/*----- Pizza and Pasta Menu -----*/
+
+.pizzaAndPastaMenu {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.pizzaAndPastaMenu-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.pizzaAndPastaMenu-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+.pizzaAndPastaMenu-col ul {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 /*----- restaurant -----*/
@@ -283,7 +356,7 @@ h3 {
 
 /*----- About Us Page -----*/
 
-.sub-header {
+.about-header {
     height: 60vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/outside-logo.jpg);
@@ -292,7 +365,7 @@ h3 {
     text-align: center;
     color: #fff;
 }
-.sub-header h1 {
+.about-header h1 {
     margin-top: 100px;
 }
 .about-us {
@@ -322,6 +395,11 @@ h3 {
 .red-btn:hover {
     color: #fff;
 }
+
+
+
+
+
 
 /*----- media up to 700px-----*/
 
