@@ -424,6 +424,7 @@ h3 {
 .contactUs-col {
     flex-basis: 48%;
     margin-bottom: 30px;
+    margin-left: 15px;
 }
 .contactUs-col div {
     display: flex;
