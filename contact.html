@@ -76,15 +76,16 @@
                     </span>
                 </div>
             </div>
-            <form class="contactUs-col contact-form">
-                <input type="text" class="name" placeholder="Enter your name">
-                <input type="email" class="email" placeholder="Enter your email address">
-                <textarea rows="8" class="message" placeholder="Message"></textarea>
+            <form method="POST" class="contactUs-col contact-form">
+                <input type="text" class="name" placeholder="Enter your name" required>
+                <input type="email" class="email" placeholder="Enter your email address" required>
+                <textarea rows="8" class="message" placeholder="Message" required></textarea>
                 <button type="submit" class="hero-btn red-btn">Send Message</button>
             </form>
         </div>
     </section>
 
+    <div class="infoResults"></div>
 
 
     <section class="footer">
@@ -105,6 +106,7 @@
         </div>
     </section>
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
     <script src="scripts/script.js"></script>
 </body>
