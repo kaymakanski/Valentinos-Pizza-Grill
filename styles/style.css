@@ -299,6 +299,23 @@ h3 {
 
 /*----- Comment -----*/
 
+.displayComment {
+    margin: auto; 
+    text-align: left;
+}
+.displayComment-col {
+    flex-basis: 80%;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+}
+.displayComment h3, h5 {
+    text-align: right;
+    margin: auto;
+}
 .comment {
     margin: 100px auto;
     width: 80%;

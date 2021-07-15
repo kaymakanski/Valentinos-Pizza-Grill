@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
         integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
@@ -118,7 +118,7 @@
     <!----- user reviews ----->
 
     <section class="userReviews">
-        <h1>WHat our clients say about us</h1>
+        <h1>What our clients say about us</h1>
 
         <div class="row">
             <div class="userReviews-col">
@@ -154,15 +154,15 @@
         <h2>Tell us what you think<br>Your oppinion is important to us</h2>
         <div class="comment-box">
             <h3>Leave a comment</h3>
-            <form class="comment-form">
-                <input type="text" placeholder="Enter Name">
-                <input type="email" placeholder="Enter Email">
-                <textarea rows="5" placeholder="Your comment"></textarea>
+            <form method="POST" class="comment-form submit-comment">
+                <input class="commentName" type="text" placeholder="Enter Name" required>
+                <input class="commentEmail" type="email" placeholder="Enter Email" required>
+                <textarea class="userComment" rows="5" placeholder="Your comment" required></textarea>
                 <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
             </form>
         </div>
     </section>
-
+    <div class="displayComment"></div>
     <!----- Footer ----->
 
     <section class="footer">
@@ -183,7 +183,7 @@
         </div>
     </section>
 
-    
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 
